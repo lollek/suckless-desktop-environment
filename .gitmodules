@@ -4,3 +4,6 @@
 [submodule "dmenu"]
 	path = dmenu
 	url = git@github.com:lollek/dmenu.git
+[submodule "st"]
+	path = st
+	url = git@github.com:lollek/st.git
