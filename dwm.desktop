@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=DWM
+Comment=Lightweight Desktop Environment
+Exec=startdwm
+Type=Application
+DesktopNames=dwm

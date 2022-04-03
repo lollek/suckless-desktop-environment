@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Run this through `startx $HOME/.xinitrc dwm/openbox/...`
+
+# invoke global X session script
+#. /etc/X11/Xsession
+
+setxkbmap us -variant altgr-intl -option nodeadkeys
+
+while true
+do
+    xsetroot -name "$(date +'%a %b %d %R')"
+    sleep 1
+done &
+
+exec /usr/local/bin/dwm
